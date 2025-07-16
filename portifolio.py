@@ -7,7 +7,20 @@ import json
 import base64
 
 
-st.set_page_config(page_title='Orlando Junior - Transformando dados em Insights!' ,layout="wide",page_icon='👨‍🔬')
+st.set_page_config(page_title='Orlando Junior - Transformando dados em Insights!' , initial_sidebar_state="collapsed", layout="wide",page_icon='👨‍🔬')
+
+
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
 
 col1, col2, col3 = st.columns(3)
  
