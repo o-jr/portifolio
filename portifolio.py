@@ -381,15 +381,11 @@ with col2:
     """<a href="https://www.linkedin.com/in/o-junior/">
     <img src="data:image/png;base64,{}" width="25">
     </a>""".format(
-        base64.b64encode(open("./app/static/linkedin.png", "rb").read()).decode()
+        base64.b64encode(open("./app/static/linke.png", "rb").read()).decode()
     ),
     unsafe_allow_html=True,
 )
     
-
-
-
-
 
 
 def main():
