@@ -212,7 +212,7 @@ st.divider()
 col1, col2, col3, col4, col5 = st.columns((1, 4, 0.5, 1, 1))
 
 with col2:
-    st.markdown(f"<p style='text-align: center;'>Minha jornada na análise de dados começou com uma curiosidade geuína pelos números e padrões que movimentam o mercado financeiro. A partir dessa experiência, desenvolvi uma base sólida em processos que envolvem desde a coleta até a transformação e interpretação de grandes volumes de dados. Tenho perfil analítico, gosto de entender o cenário por trás dos números e transformar dados brutos em insights valiosos que apoiam decisões estratégicas.Sou motivado por desafios e apaixonado por explorar o potencial dos dados para resolver problemas reais de negócios. Busco constantemente aprimorar minhas habilidades e acompanhar as inovações dessa área que está em constante evolução. Acredito que dados contam histórias e meu objetivo é traduzi-las de forma clara, visual e acessível para diferentes públicos e objetivos.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: center;'>Minha jornada na análise de dados começou com uma curiosidade pelos números e padrões que movimentam o mercado financeiro. A partir dessa experiência, desenvolvi uma base sólida em processos que envolvem desde a coleta até a transformação e interpretação de grandes volumes de dados. Tenho perfil analítico, gosto de entender o cenário por trás dos números e transformar dados brutos em insights valiosos que apoiam decisões estratégicas.Sou motivado por desafios e apaixonado por explorar o potencial dos dados para resolver problemas reais de negócios. Busco constantemente aprimorar minhas habilidades e acompanhar as inovações dessa área que está em constante evolução. Acredito que dados contam histórias e meu objetivo é traduzi-las de forma clara, visual e acessível para diferentes públicos e objetivos.</p>", unsafe_allow_html=True)
 
 with col4:
     st.image("img/me.jpg", width=300)
@@ -234,7 +234,7 @@ st.markdown('#')
 
 c1,c2,c3,c4 = st.columns((1, 1, 1, 1))
 
-with c1:
+with c4:
     st.image("img/merchan.jpg", caption="Visualização detalhada de propagandas, segmentadas por produtos, classificação, regiões, demografia e custos de envio.") 
     st.page_link("https://github.com/o-jr/PBI-sales-analysis", label="Power Query - Power BI - DAX", icon="⚙️")
 
@@ -247,7 +247,7 @@ with c3:
     st.image("img/pixar.png", caption="Um animado dashboard sobre a história da Pixar") 
     st.page_link("https://mavenanalytics.io/project/29468", label="Python - Pandas - BS4 - Matplotlib - Streamlit", icon="⚙️")
 
-with c4:
+with c1:
     st.image("img/Qliksense.png", caption="Dashboard de vendas criado no Qliksense") 
     st.page_link("https://github.com/o-jr/", label="Qlik Sense", icon="⚙️")
 
