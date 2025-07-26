@@ -130,7 +130,7 @@ with coll3:
         key='Viz'     # Unique identifier for the animation
     )
     st.markdown(f"<h3 style='text-align: center; font-family: Montserrat;'>Visualização de Dados</h3>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: center;'>Transformo dados em narrativas visuais acionáveis através de dashboards interativos e relatórios analíticos. Domínio de ferramentas como Power BI, Qlik Sense e Excel/Google Sheets para criação de KPIs e gráficos dinâmicos.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: center;'>Transformo dados em narrativas visuais acionáveis através de dashboards interativos e relatórios analíticos. Domínio de ferramentas como Power BI, Matplotlib, Excel e Google Sheets para criação de KPIs e gráficos dinâmicos.</p>", unsafe_allow_html=True)
 
 with coll2:
     st_lottie(
@@ -144,7 +144,7 @@ with coll2:
         key='Db'     # Unique identifier for the animation
     )
     st.markdown(f"<h3 style='text-align: center; font-family: Montserrat;'>Banco de Dados</h3>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: center;'>Proeficiente em modelagem de dados e desenvolvimento de soluções otimizadas em ambientes SQL (MySQL, PostgreSQL) e NoSQL (MongoDB). Experiência em criação de queries complexas, views, índices e procedures para maximizar desempenho e escalabilidade.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: center;'>Proeficiente em modelagem de dados e desenvolvimento de soluções otimizadas em ambientes SQL (MySQL, PostgreSQL) e NoSQL (MongoDB). Experiência em criação de queries, views, índices e procedures para maximizar desempenho e escalabilidade.</p>", unsafe_allow_html=True)
 
 with coll4:
     st_lottie(
@@ -175,7 +175,7 @@ with coll2:
         key='End'     # Unique identifier for the animation
     )
     st.markdown(f"<h3 style='text-align: center; font-family: Montserrat;'>Engenharia de Dados</h3>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: center;'>Projetista de pipelines de dados eficientes, desde a extração até a carga em data warehouses. Experiência com ETL/ELT utilizando Power Query, Pandas, DuckDB, AWS Glue e dbt.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: center;'>Projetista de pipelines de dados eficientes, desde a extração até a carga em data warehouses. Experiência com processos ETL/ELT utilizando Power Query, Pandas, DuckDB, AWS Glue e dbt.</p>", unsafe_allow_html=True)
 
 with coll3:
     st_lottie(
@@ -235,20 +235,20 @@ st.markdown('#')
 c1,c2,c3,c4 = st.columns((1, 1, 1, 1))
 
 with c4:
-    st.image("img/merchan.jpg", caption="Visualização detalhada de propagandas, segmentadas por produtos, classificação, regiões, demografia e custos de envio.") 
-    st.page_link("https://github.com/o-jr/PBI-sales-analysis", label="Power Query - Power BI - DAX", icon="⚙️")
+    st.image("img/merchan.jpg", caption="Visualização detalhada de propagandas segmentadas por produtos, classificação, regiões, demografia e custos de envio.") 
+    st.page_link("https://github.com/o-jr/PBI-sales-analysis", label="Power Query - DAX - Power BI", icon="⚙️")
 
 
 with c2:
-    st.image("img/pipeline.png", caption="Web Scraping") 
+    st.image("img/pipeline.png", caption="Pipeline completo utilizando técnica Web Scraping para extração de dados da Amazon") 
     st.page_link("https://github.com/o-jr/amazon-scraping", label="Scrapy - Spidermon - Pandas - DuckDB -Streamlit", icon="⚙️")
 
 with c3:
-    st.image("img/pixar.png", caption="Um animado dashboard sobre a história da Pixar") 
+    st.image("img/pixar.png", caption="Um animado dashboard sobre a história e os números da Pixar Estudios") 
     st.page_link("https://mavenanalytics.io/project/29468", label="Python - Pandas - BS4 - Matplotlib - Streamlit", icon="⚙️")
 
 with c1:
-    st.image("img/Qliksense.png", caption="Dashboard de vendas criado no Qliksense") 
+    st.image("img/Qliksense.png", caption="Este painel monitora o desempenho financeiro e operacional de uma cooperativa.") 
     st.page_link("https://github.com/o-jr/", label="Qlik Sense", icon="⚙️")
 
 
@@ -257,7 +257,7 @@ c1,c2,c3,c4 = st.columns((1, 1, 1, 1))
 
 with c3:
     st.image("img/Insurance.png", caption="Projeto desenvolvido para o acompanhamento e gerenciamento financeiro hospitalar. ") 
-    st.page_link("https://mavenanalytics.io/project/17139", label="Power Query - Power BI - DAX", icon="⚙️")
+    st.page_link("https://mavenanalytics.io/project/17139", label="Power Query - DAX - Power BI", icon="⚙️")
 
 with c1:
     st.image("img/etl100m.png", caption="Comparação de ferramentas para analise e transformação de 100M de linhas") 
@@ -265,11 +265,11 @@ with c1:
 
 with c2:
     st.image("img/stocks.png", caption="Dashboard criado para o acompanhamento de performance de ações, focado em análise temporal e indicadores financeiros.") 
-    st.page_link("https://mavenanalytics.io/project/18883", label="Power Query - Power BI - DAX", icon="⚙️")
+    st.page_link("https://mavenanalytics.io/project/18883", label="Power Query - DAX- Power BI", icon="⚙️")
 
 with c4:
     st.image("img/reva.jpg", caption="Essa análise monitora o desempenho de vendas trimestrais, performance de gerentes, tendências de produtos e categoria.") 
-    st.page_link("https://mavenanalytics.io/project/16179", label="Power Query - Power BI - DAX", icon="⚙️")
+    st.page_link("https://mavenanalytics.io/project/16179", label="Power Query - DAX - Power BI", icon="⚙️")
 
 
 c1,c2,c3,c4 = st.columns((1, 1, 1, 1))
