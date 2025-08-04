@@ -296,7 +296,7 @@ st.markdown(
     )
 
 
-coll1, coll2, coll3, coll4, coll5, coll6 = st.columns((1, 2, 2, 2, 2,1))
+coll1, coll2, joker1, coll3, joker2, coll4, joker3,coll5, coll6 = st.columns((0.5, 2, 0.2, 2, 0.2, 2, 0.2, 2, 0.5))
 
 
 with coll2:
@@ -305,29 +305,31 @@ with coll2:
   st.page_link("https://learn.mongodb.com/learn/learning-path/introduction-to-mongodb", label="Introduction to MongoDB", icon="🔗")
   st.page_link("https://learn.mongodb.com/learn/learning-path/mongodb-for-sql-professionals", label="MongoDB for SQL Professionals", icon="🔗")
 
+
+with coll3:
+    st.markdown("<h1 style='font-size: 1.5em; text-align: center;'>Python</h1", unsafe_allow_html=True)
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/0ca5b42f960964811c239b51e89902d0dfcbb5bb", label="Introduction to Statistics", icon="🔗"  )
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/e66dc459b6a932a6d588932c58e325bb001a86d7", label="Intro to Regression with statsmodels", icon="🔗"  )
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/27fc09e696cf5f12952702bcc0dcae371ea8913d", label="Customer Analytics and A/B Testing", icon="🔗"  )
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/9e98c3548df109250c5564af562b66a15b0e2e2a", label="ETL and ELT in Python", icon="🔗"  )
+    st.page_link("https://certificates.mavenanalytics.io/c0a36cfc-dd77-4c1b-b0ef-9bdf51370331#acc.XnFm3YAV", label="Data Science: Data Prep & EDA", icon="🔗"  )  
+
 with coll4:
   st.markdown("<h1 style='font-size: 1.5em; text-align: center;'>Visualização de Dados</h1", unsafe_allow_html=True) 
-  st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/e57a49da949a1be38ba48fc9fbd7dbd50eb947e3", label="Financial Analytics in Google Sheets", icon="🔗"  )  
+  st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/e57a49da949a1be38ba48fc9fbd7dbd50eb947e3", label="Financial Analytics in G.Sheets", icon="🔗"  )  
   st.page_link("https://certificates.mavenanalytics.io/e189a2cc-b135-467e-9e9c-9a974c66453e", label="Thinking Like an Analyst", icon="🔗")
   st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/c95e046b0728713aa8afd1d7cb53b0342b318012", label="Communicating Data Insights", icon="🔗"  )
   st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/206829a892790ed9b5b06221fdc232da7f3b567a", label="Data Storytelling Concepts", icon="🔗"  )
   st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/26644d513781234a8b530241699518f6a6fe29c3", label="Storytelling Case: College Majors", icon="🔗"  )
   st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/efdc3d82f904563aaf4202dd6caaf4ec14a678b5", label="Storytelling Case: Green Businesses", icon="🔗"  )  
   
-with coll3:
-    st.markdown("<h1 style='font-size: 1.5em; text-align: center;'>Python</h1", unsafe_allow_html=True)
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/0ca5b42f960964811c239b51e89902d0dfcbb5bb", label="Introduction to Statistics in Python", icon="🔗"  )
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/e66dc459b6a932a6d588932c58e325bb001a86d7", label="Intro to Regression with statsmodels", icon="🔗"  )
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/27fc09e696cf5f12952702bcc0dcae371ea8913d", label="Customer Analytics and A/B Testing", icon="🔗"  )
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/9e98c3548df109250c5564af562b66a15b0e2e2a", label="ETL and ELT in Python", icon="🔗"  )
-
 with coll5:
     st.markdown("<h1 style='font-size: 1.5em; text-align: center;'>Engenharia de Dados</h1", unsafe_allow_html=True)
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/9006fde1cb64aa324bfff769f4cedfa0010f1688", label="Introduction to Git", icon="🔗")
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/b8d0d884f3c335ff93caa690251b3fa9f320ba2c", label="Introduction to GitHub Concepts", icon="🔗"  )
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/9006fde1cb64aa324bfff769f4cedfa0010f1688", label="Intro to Git", icon="🔗")
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/b8d0d884f3c335ff93caa690251b3fa9f320ba2c", label="Intro to GitHub Concepts", icon="🔗"  )
     st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/7373d38822feebc21a5903648e8113f922221888", label="Intermediate Git", icon="🔗"  )    
     st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/1222d7313e6faad6216837e11ccf292f40c95b06", label="Intermediate GitHub Concepts", icon="🔗"  )
-    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/7e4caa09033c35bf34f5378c8c85c45a504b4e40", label="Introduction to dbt", icon="🔗"  )
+    st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/7e4caa09033c35bf34f5378c8c85c45a504b4e40", label="Intro to dbt", icon="🔗"  )
     st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/e879e1bc2067e44c23454e7332fdaff68fa588bd", label="Intermediate dbt", icon="🔗"  )
     st.page_link("https://www.datacamp.com/completed/statement-of-accomplishment/course/1746ff9e4273e6d3b4da4da19ebd8ef2b67d355b", label="Case: Building E-Commerce Models with dbt", icon="🔗"  )
 
